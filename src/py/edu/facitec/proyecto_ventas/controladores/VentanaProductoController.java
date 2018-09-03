@@ -46,7 +46,6 @@ public class VentanaProductoController implements AccionesABM{
 			return;//si la posicion es incorrecta cancela la ejecucion
 		}
 		producto = lista.get(posicion);
-		producto = lista.get(posicion);
 		ventanaProducto.gettDescripcion().setText(producto.getDescripcion());
 		ventanaProducto.gettCodigoBarra().setText(producto.getCodigoBarra());
 		ventanaProducto.gettPrecioCompra().setText(producto.getPrecioCompra()+"");
